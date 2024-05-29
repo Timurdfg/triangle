@@ -1,0 +1,35 @@
+section#sec1 {
+    position: relative;
+}
+
+canvas#c2{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+canvas#c2.active{
+    display: block;
+}
+
+section#sec2 {
+    position: relative;
+}
+
+canvas#c4{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+canvas#c4.active{
+    display: block;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    justify-items: center;
+    row-gap: 10px;
+}
+
